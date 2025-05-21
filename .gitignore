@@ -1,0 +1,9 @@
+fp-info-cache
+~*
+*.net
+.DS_Store
+
+*-backups/
+fab/
+slices/
+net_configs/
