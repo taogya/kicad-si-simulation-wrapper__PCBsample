@@ -1244,7 +1244,7 @@
 				)
 			)
 		)
-		(property "Value" "０"
+		(property "Value" "0"
 			(at 92.71 110.49 90)
 			(effects
 				(font
@@ -1379,7 +1379,7 @@
 				)
 			)
 		)
-		(property "Value" "０"
+		(property "Value" "0"
 			(at 115.57 110.49 90)
 			(effects
 				(font
@@ -1517,7 +1517,7 @@
 				)
 			)
 		)
-		(property "Value" "０"
+		(property "Value" "0"
 			(at 138.43 68.58 90)
 			(effects
 				(font
@@ -1655,7 +1655,7 @@
 				)
 			)
 		)
-		(property "Value" "０"
+		(property "Value" "0"
 			(at 92.71 68.58 90)
 			(effects
 				(font
@@ -1924,7 +1924,7 @@
 				)
 			)
 		)
-		(property "Value" "０"
+		(property "Value" "0"
 			(at 115.57 68.58 90)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 				)
 			)
 		)
-		(property "Value" "０"
+		(property "Value" "0"
 			(at 138.43 110.49 90)
 			(effects
 				(font
