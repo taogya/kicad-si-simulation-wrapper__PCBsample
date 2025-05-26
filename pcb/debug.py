@@ -82,9 +82,19 @@ def main():
             args=["kmake", "gerber", "-xe"],
             cwd=os.path.join("slices", os.path.basename(file).replace(".json", ""))
         )
+        # # png生成コマンド実行
+        # subprocess.run(
+        #     args=["si-wrapper", "gerber2png"],
+        #     cwd=os.path.join("slices", os.path.basename(file).replace(".json", ""))
+        # )
         # pnp生成コマンド実行
         subprocess.run(
             args=["kmake", "pnp", "-t"],
+            cwd=os.path.join("slices", os.path.basename(file).replace(".json", ""))
+        )
+        # stackup生成コマンド実行
+        subprocess.run(
+            args=["kmake", "stackup-export"],
             cwd=os.path.join("slices", os.path.basename(file).replace(".json", ""))
         )
         # fabディレクトリ内のcsvファイルを処理

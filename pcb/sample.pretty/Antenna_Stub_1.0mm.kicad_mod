@@ -1,0 +1,88 @@
+(footprint "Antenna_Stub_1.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2ab07987-b8ae-4684-9df9-8ae008d4f311")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Antenna_Stub_1.0mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec8b11fd-21d8-4218-a8aa-8af03665e745")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d6e1c8a-1204-4782-9f01-24862d8f0b9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7d4f713-3743-4687-ae01-5b9f8dfc6eef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebdf6a2d-1e6f-4ac0-b2e5-a71274376994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ba222af6-3dff-4806-be7b-168f85d260b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1640419948)
+		(uuid "ddc6d3fe-73b3-492c-8e8e-607a32e19870")
+	)
+)
