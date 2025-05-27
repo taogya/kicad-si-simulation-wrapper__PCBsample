@@ -67,10 +67,10 @@ def main():
         included_pads = included_pads_dict.get(os.path.basename(file), [])
         # JSONファイル編集
         edit_json_file(file,
-                       board_offset__top=1000,
-                       board_offset__bottom=1000,
-                       board_offset__left=1000,
-                       board_offset__right=1000,
+                       board_offset__top=100,
+                       board_offset__bottom=100,
+                       board_offset__left=100,
+                       board_offset__right=100,
                        included_pads=included_pads,
                        hidden_pads__designated_net=False,
                        hidden_pads__other_nets=False,
@@ -82,11 +82,11 @@ def main():
             args=["kmake", "gerber", "-xe"],
             cwd=os.path.join("slices", os.path.basename(file).replace(".json", ""))
         )
-        # # png生成コマンド実行
-        # subprocess.run(
-        #     args=["si-wrapper", "gerber2png"],
-        #     cwd=os.path.join("slices", os.path.basename(file).replace(".json", ""))
-        # )
+        # png生成コマンド実行
+        subprocess.run(
+            args=["si-wrapper", "gerber2png"],
+            cwd=os.path.join("slices", os.path.basename(file).replace(".json", ""))
+        )
         # pnp生成コマンド実行
         subprocess.run(
             args=["kmake", "pnp", "-t"],
