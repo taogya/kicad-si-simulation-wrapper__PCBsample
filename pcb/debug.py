@@ -67,10 +67,10 @@ def main():
         included_pads = included_pads_dict.get(os.path.basename(file), [])
         # JSONファイル編集
         edit_json_file(file,
-                       board_offset__top=10,
-                       board_offset__bottom=10,
-                       board_offset__left=10,
-                       board_offset__right=10,
+                       board_offset__top=50,
+                       board_offset__bottom=50,
+                       board_offset__left=50,
+                       board_offset__right=50,
                        included_pads=included_pads,
                        hidden_pads__designated_net=False,
                        hidden_pads__other_nets=False,
